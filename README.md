@@ -44,14 +44,29 @@ The dataset contains approximately 120.000 hotel booking records. The dataset in
    
 ## Key Insights
 - City Hotel showed a higher cancellation rate than Resort Hotel, suggesting less stable booking behavior.
+
+  ![Cancellation_Rate_by_Hotel_Type](images/Cancellation_Rate_by_Hotel_Type.PNG)
+  
 - Booking demand showed a seasonal pattern, with the highest volume in summer and the lowest in winter.
+
+  ![Booking_Distribution_by_Season](images/Booking_Distribution_by_Season.PNG)
+  
 - Cancellation patterns differed across market segments. While `Undefined` showed a 100% cancellation rate, it only contained two bookings and was therefore not considered a meaningful pattern.
-- `Online TA` emerged as one of the most important market segments due to its high booking volume and relatively high cancellation rate.
+- - `Online TA` emerged as one of the most important market segments due to its high booking volume and relatively high cancellation rate.
+
+  ![Cancellation_Rate_by_Market_Segment](images/Cancellation_Rate_by_Market_Segment.PNG)
+
+  ![Cancellation_Rate_by_Market_Segment(Table)](images/Cancellation_Rate_by_Market_Segment(Table).PNG)
+ 
 - Canceled bookings had a longer average lead time than non-canceled bookings, indicating that reservations made further in advance were more likely to be canceled.
   
   ![Average_Lead_Time_by_Cancellation_Status](images/Average_Lead_Time_by_Cancellation_Status.PNG)
   
 - ADR values were concentrated mostly in the lower-to-mid price range, with a right-skewed distribution and a small number of high-value bookings.
+
+  ![Distribution_of_ADR](images/Distribution_of_ADR.PNG)
+
+  ![Distribution_of_ADR(for better visualization)](images/Distribution_of_ADR(for better visualization).PNG)
   
 ## Tools Used
 - Python
