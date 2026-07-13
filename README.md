@@ -66,7 +66,8 @@ The dataset contains approximately 120.000 hotel booking records. The dataset in
 
   ![Distribution_of_ADR](images/Distribution_of_ADR.PNG)
 
-  ![Distribution_of_ADR(for better visualization)](images/Distribution_of_ADR(for better visualization).PNG)
+ ![Distribution_of_ADR(for_better_visualization)](images/Distribution_of_ADR(for_better_visualization).PNG)
+ 
   
 ## Tools Used
 - Python
