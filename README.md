@@ -48,7 +48,9 @@ The dataset contains approximately 120.000 hotel booking records. The dataset in
 - Cancellation patterns differed across market segments. While `Undefined` showed a 100% cancellation rate, it only contained two bookings and was therefore not considered a meaningful pattern.
 - `Online TA` emerged as one of the most important market segments due to its high booking volume and relatively high cancellation rate.
 - Canceled bookings had a longer average lead time than non-canceled bookings, indicating that reservations made further in advance were more likely to be canceled.
+  
   ![Average_Lead_Time_by_Cancellation_Status](images/Average_Lead_Time_by_Cancellation_Status.PNG)
+  
 - ADR values were concentrated mostly in the lower-to-mid price range, with a right-skewed distribution and a small number of high-value bookings.
   
 ## Tools Used
