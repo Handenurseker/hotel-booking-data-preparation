@@ -6,8 +6,8 @@ In this project, I aimed to understand booking behavior by analyzing a hotel boo
 ## Dataset
 The dataset contains approximately 120.000 hotel booking records. The dataset includes many variables such as reservation dates, market segment, ADR, reservation status, cancellation status, and so on. The dataset includes both city hotels and resort hotels.
 
-### Original Dataset
-![Original_dataset](images/Original_dataset.PNG)
+ ### Original Dataset
+ ![Original_dataset](images/Original_dataset.PNG)
 
 ## Business Questions
 - Which hotel type has the highest cancellation rate?
@@ -31,7 +31,7 @@ The dataset contains approximately 120.000 hotel booking records. The dataset in
 9. One record with a negative ADR value was removed because a negative daily rate is not logically valid for this analysis.
 10. Final validation checks were performed to confirm that no missing values, duplicate records, or logically invalid observations remained in the cleaned dataset.
 
-### Final Validations
+ ### Final Validations
 ![Final_validations](images/Final_validations.PNG)
 
 ## Exploratory Data Analysis
