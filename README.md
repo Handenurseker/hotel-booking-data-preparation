@@ -5,6 +5,7 @@ In this project, I aimed to understand booking behavior by analyzing a hotel boo
 
 ## Dataset
 The dataset contains approximately 120.000 hotel booking records. The dataset includes many variables such as reservation dates, market segment, ADR, reservation status, cancellation status, and so on. The dataset includes both city hotels and resort hotels.
+![Average_Lead_Time_by_Cancellation_Status](images/Average_Lead_Time_by_Cancellation_Status.PNG)
 
 ## Business Questions
 - Which hotel type has the highest cancellation rate?
