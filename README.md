@@ -5,7 +5,7 @@ In this project, I aimed to understand booking behavior by analyzing a hotel boo
 
 ## Dataset
 The dataset contains approximately 120.000 hotel booking records. The dataset includes many variables such as reservation dates, market segment, ADR, reservation status, cancellation status, and so on. The dataset includes both city hotels and resort hotels.
-![Average_Lead_Time_by_Cancellation_Status](images/Average_Lead_Time_by_Cancellation_Status.PNG)
+![Original_dataset](images/Original_dataset.PNG)
 
 ## Business Questions
 - Which hotel type has the highest cancellation rate?
@@ -28,7 +28,8 @@ The dataset contains approximately 120.000 hotel booking records. The dataset in
 8. The `agent` column was retained for now, since missing values may represent direct bookings rather than data quality issues.
 9. One record with a negative ADR value was removed because a negative daily rate is not logically valid for this analysis.
 10. Final validation checks were performed to confirm that no missing values, duplicate records, or logically invalid observations remained in the cleaned dataset.
-    
+![data-cleaning-desicions](images/data-cleaning-desicions.PNG)
+![Final_validations(images/Final_validations.PNG)
 ## Exploratory Data Analysis
 1. Cancellation Rate by Hotel Type
 2. Booking Distribution by Season
@@ -43,6 +44,7 @@ The dataset contains approximately 120.000 hotel booking records. The dataset in
 - Cancellation patterns differed across market segments. While `Undefined` showed a 100% cancellation rate, it only contained two bookings and was therefore not considered a meaningful pattern.
 - `Online TA` emerged as one of the most important market segments due to its high booking volume and relatively high cancellation rate.
 - Canceled bookings had a longer average lead time than non-canceled bookings, indicating that reservations made further in advance were more likely to be canceled.
+  ![Average_Lead_Time_by_Cancellation_Status](images/Average_Lead_Time_by_Cancellation_Status.PNG)
 - ADR values were concentrated mostly in the lower-to-mid price range, with a right-skewed distribution and a small number of high-value bookings.
   
 ## Tools Used
