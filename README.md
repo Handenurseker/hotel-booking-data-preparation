@@ -52,7 +52,7 @@ The dataset contains approximately 120.000 hotel booking records. The dataset in
   ![Booking_Distribution_by_Season](images/Booking_Distribution_by_Season.PNG)
   
 - Cancellation patterns differed across market segments. While `Undefined` showed a 100% cancellation rate, it only contained two bookings and was therefore not considered a meaningful pattern.
-- - `Online TA` emerged as one of the most important market segments due to its high booking volume and relatively high cancellation rate.
+- `Online TA` emerged as one of the most important market segments due to its high booking volume and relatively high cancellation rate.
 
   ![Cancellation_Rate_by_Market_Segment](images/Cancellation_Rate_by_Market_Segment.PNG)
 
